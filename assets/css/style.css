@@ -464,7 +464,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Hero Section
+# hero Section
 --------------------------------------------------------------*/
 
 .hero {
@@ -1304,7 +1304,9 @@ section {
 }
 
 
-/* pagination */
+/*--------------------------------------------------------------
+# pagination slick
+--------------------------------------------------------------*/
 
 .counts .wrapper {
     width: 100%;
@@ -1334,4 +1336,68 @@ h2 {
 .counts .wrapper .slick-dots li button:before {
     font-size: 20px;
     color: white;
+}
+
+
+/*--------------------------------------------------------------
+# Artikel
+--------------------------------------------------------------*/
+
+.artikel {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.about .content {
+    background: #F1F1FF;
+}
+
+.artikel h3 {
+    color: #18191F;
+}
+
+.artikel p {
+    color: #18191F;
+}
+
+.artikel ol {
+    color: #02A1E5;
+}
+
+.artikel li {
+    color: #3F3D56;
+}
+
+
+/* .artikel .artikel-img {
+    text-align: right;
+} */
+
+@media (min-width: 1024px) {
+    .artikel {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 991px) {
+    .artikel {
+        height: auto;
+        padding: 120px 0 60px 0;
+    }
+    .artikel .artikel-img {
+        text-align: center;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .artikel {
+        text-align: center;
+    }
+    .artikel h1 {
+        font-size: 32px;
+    }
+    .artikel h2 {
+        font-size: 24px;
+    }
 }
