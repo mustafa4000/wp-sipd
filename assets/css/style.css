@@ -1240,7 +1240,6 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
-    padding: 40px 20px;
     background: #fff;
     text-align: center;
     box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
@@ -1259,20 +1258,25 @@ section {
     border-radius: 24px;
 }
 
-.pricing .box .card-header:hover {
+.pricing  .card-header:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
     background: #02A1E5;
+    border-radius: 24px;
+}
 
+.pricing  .card-header {
+    background: #02A1E5;
 }
 
 .pricing h3 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter',sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    /* line-height: 59px; */
-    text-align: center;
-    letter-spacing: 0.0025em;
-    color: #323234;    
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;    
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
 }
 
 .pricing .p-12 {
@@ -1283,7 +1287,17 @@ section {
     line-height: 24px;
     text-align: center;
     color: #4F4F4F;
-    
+}
+
+.pricing .p-10 {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: start;
+    letter-spacing: 0.5px;
+    color: #4F4F4F;
 }
 
 .pricing h4 {
