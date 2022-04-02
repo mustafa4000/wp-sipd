@@ -1259,12 +1259,17 @@ section {
     border-radius: 24px;
 }
 
-.pricing h2 {
+.pricing .box .card-header:hover {
+    background: #02A1E5;
+
+}
+
+.pricing h3 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
+    font-size: 20px;
+    /* line-height: 59px; */
     text-align: center;
     letter-spacing: 0.0025em;
     color: #323234;    
