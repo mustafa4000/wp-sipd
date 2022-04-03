@@ -207,6 +207,7 @@ section {
     display: flex;
     list-style: none;
     align-items: center;
+    color: #18191F;
 }
 
 .navbar li {
@@ -232,7 +233,7 @@ section {
 .navbar .active:focus,
 .navbar li:hover>a {
     color: #4154f1;
-    /* background: #4154f1; */
+    background-color: #a1d4fd;
 }
 
 
