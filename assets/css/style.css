@@ -232,10 +232,8 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #4154f1;
-    background-color: #a1d4fd;
+    color: green;
 }
-
 
 /*--------------------------------------------------------------
 # hero Section
