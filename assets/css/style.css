@@ -300,30 +300,26 @@ section {
 .hero .btn-get-started {
     margin-top: 30px;
     line-height: 0;
-    padding: 15px 40px;
+    /* padding: 15px 40px; */
     border-radius: 4px;
     transition: 0.5s;
     color: #fff;
-    background: #4154f1;
+    background:#00A1E6;
     box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 
 .hero .btn-get-started span {
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
     letter-spacing: 1px;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.0015em;
+    font-style: normal;
+    color: #FFFFFF;
 }
 
-.hero .btn-get-started i {
-    margin-left: 5px;
-    font-size: 18px;
-    transition: 0.3s;
-}
 
-.hero .btn-get-started:hover i {
-    transform: translateX(5px);
-}
 
 .hero .hero-img {
     text-align: right;
@@ -519,6 +515,8 @@ section {
 .counts {
     padding: 70px 0 60px;
     background-image: url(/assets/img/bg1.png);
+    background-repeat: no-repeat;
+    
 }
 
 .counts h3 {
