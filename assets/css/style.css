@@ -353,7 +353,7 @@ section {
 
 @media (max-width: 768px) {
     .hero {
-        text-align: center;
+        text-align: start;
     }
 
     .hero h1 {
