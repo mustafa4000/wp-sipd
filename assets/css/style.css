@@ -295,6 +295,8 @@ section {
     height: 488px;
     left: 740px;
     top: 124.4px;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .hero .btn-get-started {
@@ -362,6 +364,10 @@ section {
 
     .hero .hero-img img {
         width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
 }
 
@@ -490,6 +496,9 @@ section {
     padding: 30px 50px;
     transition: 0.5s;
     transform: scale(1.1);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .values .box h2 {
